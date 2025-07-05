@@ -1,13 +1,8 @@
-def multiply_v1(a, b):
+def multiply_1 (a, b):
     return 1
 
-def multiply_v2(a, b):
-    # Base case
-    if b == 0:
-        return 0
+# the function that carries out the multiplication
+# this is a simple function that multiplies two numbers
 
-    # Handle negative numbers
-    if b < 0:
-        return -multiply_v2(a, -b)
-
-    return a + multiply_v2(a, b - 1)
+def multiply(a, b):
+    return a * b  
