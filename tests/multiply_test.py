@@ -9,4 +9,5 @@ def test_multiply_firstcycle():
 def text_multiply_secondcycle():
     assert multiply(2, 2) == 4
 
-
+def test_multiply_thirdcycle():
+    assert multiply(3, 3) == 16
