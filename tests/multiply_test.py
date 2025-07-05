@@ -6,6 +6,7 @@ from multiply import multiply
 def test_multiply_firstcycle():
     assert multiply(1, 1) == 1
 
-
+def text_multiply_secondcycle():
+    assert multiply(2, 2) == 4
 
 
