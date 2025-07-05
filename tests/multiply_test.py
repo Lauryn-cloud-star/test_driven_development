@@ -11,3 +11,6 @@ def text_multiply_secondcycle():
 
 def test_multiply_thirdcycle():
     assert multiply(3, 3) == 9
+
+def test_multiply_fourthcycle():
+    assert multiply(4, 4) == 16
