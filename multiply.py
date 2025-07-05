@@ -5,5 +5,4 @@ def multiply_1 (a, b):
 # this is a simple function that multiplies two numbers
 
 def multiply(a, b):
-    return a * b
-
+    return a * b  
