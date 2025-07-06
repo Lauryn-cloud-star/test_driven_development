@@ -8,3 +8,6 @@ def test_fibonacci_0():
 
 def test_fibonacci_1():
     assert fibonacci(1) == 1
+
+def test_fibonacci_4():
+    assert fibonacci(4) == 3
