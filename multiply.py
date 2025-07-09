@@ -1,3 +1,4 @@
+#the p
 def multiply_1 (a, b):
     return 1
 
@@ -6,3 +7,14 @@ def multiply_1 (a, b):
 
 def multiply(a, b):
     return a * b  
+
+
+"""def multiply(a, b):
+    
+    result = 0
+    
+    
+    for i in range(abs(b)):
+    # adding a to result for each iteration
+        result += a
+    return result if b > 0 else -result"""
