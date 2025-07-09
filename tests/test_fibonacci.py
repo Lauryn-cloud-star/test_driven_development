@@ -1,5 +1,7 @@
 import sys
 import os
+# Ensure the parent directory is in the path to import the fibonacci module
+# This is necessary if the tests are run from a different directory
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from fibonacci import fibonacci
 
