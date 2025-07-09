@@ -20,3 +20,6 @@ def test_tax_between_12000_and_36000():
     assert tax(15000) == tax(15000)  
     assert tax(36000) == tax(36000)
 
+def test_tax_above_36000():
+    assert tax(40000) == tax(40000)  
+    assert tax(50000) == tax(50000)
