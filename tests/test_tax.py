@@ -16,3 +16,7 @@ from tax import tax
 def test_tax_below_12000():
     assert tax(10000) == 0
 
+def test_tax_between_12000_and_36000():
+    assert tax(15000) == tax(15000)  
+    assert tax(36000) == tax(36000)
+
